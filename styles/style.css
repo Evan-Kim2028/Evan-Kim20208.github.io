@@ -1,0 +1,44 @@
+p {
+    color: #1A2687;
+  }
+
+li {
+    color: black;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+html {
+    font-size: 14px /* means pixel */;
+    font-family: 'Lacquer', sans-serif;
+    background-color: #E79A8A;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 4px;
+    margin: 0 auto;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 6px 6px 6px black;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto; /*auto is a special value that divides available horizontal space evenly between left and right */
+    background-color: #FAE3D2;
+    padding: 50px 50px 50px 50px;
+    border: 5px solid black;
+  }
+
+  img {
+    display: block; /* <img> is inline element by default, so we have to set block display property to get block behavior.*/
+    margin: 0 auto;
+  }
